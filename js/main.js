@@ -1,4 +1,5 @@
 $(function() {
+    const navLogo = $('.nav__logo')
     const nav = $('.nav');
     var scrollPrev = 0;
     $(window).scroll(function() {
@@ -8,6 +9,12 @@ $(function() {
             nav.addClass('nav--small');
         } else {
             nav.removeClass('nav--small');
+        }
+
+        if (scrolled > 50) {
+            navLogo.removeClass('nav__logo--hidden');
+        } else {
+            navLogo.addClass('nav__logo--hidden');
         }
 
         scrollPrev = scrolled;

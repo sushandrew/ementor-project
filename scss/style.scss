@@ -73,6 +73,18 @@ body {
     &--small {
         padding: 20px 16px;
     }
+    &--mobile {
+        display: flex;
+        align-items: center;
+    }
+    &__logo {
+        display: none;
+        fill: var(--clr-light);
+        &--hidden {
+            opacity: 0;
+        }
+        transition: all .3s;
+    }
     z-index: 50;
     transition: all .1s;
 }
@@ -569,6 +581,9 @@ body {
     }
     .nav {
         padding: 10px 0;
+        &__logo {
+            display: block;
+        }
         &__list {
             position: fixed;
             top: 0;
@@ -637,8 +652,6 @@ body {
         &__title {
             font-size: 40px;
         }
-    }
-    .hero {
         &__info {
             padding-top: 0;
         }

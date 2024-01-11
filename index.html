@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-mentor</title>
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <nav class="nav">
+        <div class="container">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a class="nav__link" href="#">О нас</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link nav__link--selected" href="#">Платформа</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Курсы</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Лекции</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Тарифы</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Блог</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Контакты</a>
+            </li>
+          </ul>
+          <button class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </nav>
+    </header>
+    <main class="main">
+      <section class="section hero">
+        <div class="container">
+          <div class="hero__wrapper">
+            <div class="hero__inner">
+              <picture class="hero__picture hero__picture--left">
+                <source srcset="images/hero-1.avif" type="image/avif">
+                <source srcset="images/hero-1.webp" type="image/webp">
+                <img class="hero__img hero__img--left" src="images/hero-1.jpg" alt="">
+              </picture>
+              <div class="hero__info">
+                <svg class="logo hero__logo" viewBox="0 0 170 22" width="170" height="22">
+                  <use href="images/sprite.svg#logo"></use>
+                </svg>
+                <h1 class="heading hero__title">Образовательная онлайн-платформа</h1>
+                <p class="hero__text">
+                  Курсы и видео-лекции по дизайну, копирайтингу, SMM, таргету и многим другим направлениям
+                </p>
+                <a class="btn hero__btn" href="#">Все направления</a>
+              </div>
+              <picture class="hero__picture hero__picture--right">
+                <source srcset="images/hero-2.avif" type="image/avif">
+                <source srcset="images/hero-2.webp" type="image/webp">
+                <img class="hero__img hero__img--right" src="images/hero-2.jpg" alt="">
+              </picture>
+            </div>
+            <div class="hero__social">
+              <a class="hero__social-item" href="#">
+                <svg class="hero__social-svg hero__social-svg--facebook" viewBox="0 0 22 22" width="22" height="22">
+                  <use href="images/sprite.svg#facebook"></use>
+                </svg>
+              </a>
+              <a class="hero__social-item" href="#">
+                <svg class="hero__social-svg hero__social-svg--vk" viewBox="0 0 22 22" width="22" height="22">
+                  <use href="images/sprite.svg#vk"></use>
+                </svg>
+              </a>
+              <a class="hero__social-item" href="#">
+                <svg class="hero__social-svg hero__social-svg--instagram" viewBox="0 0 22 22" width="22" height="22">
+                  <use href="images/sprite.svg#instagram"></use>
+                </svg>
+              </a>
+            </div>
+            <a class="hero__down-link" href="#stats">
+              <svg class="hero__down-arrow" viewBox="0 0 10 18" width="10" height="18">
+                <use href="images/sprite.svg#arrow-down"></use>
+              </svg>
+              Листайте вниз
+            </a>
+          </div>
+        </div>
+      </section>
+      <section class="section stats" id="stats">
+        <div class="container">
+          <div class="stats__list">
+            <div class="stats__item">
+              <p class="heading stats__number">100+</p>
+              <p class="stats__text">теоретических и практических курсов для разного уровня</p>
+            </div>
+            <div class="stats__item">
+              <p class="heading stats__number">3 000</p>
+              <p class="stats__text">часов видео-лекций и вебинаров от лучших преподавателей</p>
+            </div>
+            <div class="stats__item">
+              <p class="heading stats__number">15</p>
+              <p class="stats__text">направлений обучения востребованным профессиям</p>
+            </div>
+            <div class="stats__item">
+              <p class="heading stats__number">2 000</p>
+              <p class="stats__text">учеников уже занимаются на нашей платформе</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section teachers">
+        <div class="container">
+          <div class="teachers__inner">
+            <div class="teachers__info">
+              <h1 class="heading teachers__title">Учитесь у лучших</h1>
+              <div class="teachers__text">
+                <p>
+                  Наши преподаватели – профессионалы, которые добились успеха в своей области. Лид-дизайнеры известных студий, маркетологи крупнейших компаний, редакторы популярных медиа: получайте опыт из первых рук, в любое время.
+                </p>
+                <p>
+                  Кураторы курсов – наши лучшие выпускники, будут помогать и поддерживать вас на протяжении всего обучения. 
+                </p>
+              </div>
+              <a class="btn teachers__btn" href="#">Все преподаватели</a>
+            </div>
+            <div class="teachers__list">
+              <div class="teachers__item">
+                <picture class="teachers__picture">
+                  <source srcset="images/teacher-1.avif" type="image/avif">
+                  <source srcset="images/teacher-1.webp" type="image/webp">
+                  <img class="teachers__img" src="images/teacher-1.jpg" alt="">
+                </picture>
+                <p class="teachers__item-text">Катя, ведущий дизайнер TailGroup</p>
+              </div>
+              <div class="teachers__item">
+                <picture class="teachers__picture">
+                  <source srcset="images/teacher-2.avif" type="image/avif">
+                  <source srcset="images/teacher-2.webp" type="image/webp">
+                  <img class="teachers__img" src="images/teacher-2.jpg" alt="">
+                </picture>
+                <p class="teachers__item-text">Марина, маркетолог Headers Market</p>
+              </div>
+              <div class="teachers__item">
+                <picture class="teachers__picture">
+                  <source srcset="images/teacher-3.avif" type="image/avif">
+                  <source srcset="images/teacher-3.webp" type="image/webp">
+                  <img class="teachers__img" src="images/teacher-3.jpg" alt="">
+                </picture>
+                <p class="teachers__item-text">Сава, PR-менеджер Central Media</p>
+              </div>
+              <div class="teachers__item">
+                <picture class="teachers__picture">
+                  <source srcset="images/teacher-4.avif" type="image/avif">
+                  <source srcset="images/teacher-4.webp" type="image/webp">
+                  <img class="teachers__img" src="images/teacher-4.jpg" alt="">
+                </picture>
+                <p class="teachers__item-text">Паша, основатель LeadCompany</p>
+              </div>
+              <div class="teachers__item">
+                <picture class="teachers__picture">
+                  <source srcset="images/teacher-5.avif" type="image/avif">
+                  <source srcset="images/teacher-5.webp" type="image/webp">
+                  <img class="teachers__img" src="images/teacher-5.jpg" alt="">
+                </picture>
+                <p class="teachers__item-text">Саша, главный редактор Just Journal</p>
+              </div>
+              <div class="teachers__item">
+                <picture class="teachers__picture">
+                  <source srcset="images/teacher-6.avif" type="image/avif">
+                  <source srcset="images/teacher-6.webp" type="image/webp">
+                  <img class="teachers__img" src="images/teacher-6.jpg" alt="">
+                </picture>
+                <p class="teachers__item-text">Лёня, ведущий разработчик Ymail</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section format">
+        <div class="container">
+          <div class="format__inner">
+            <picture class="format__picture">
+              <source srcset="images/format-img.avif" type="image/avif">
+              <source srcset="images/format-img.webp" type="image/webp">
+              <img class="format__img" src="images/format-img.jpg" alt="">
+            </picture>
+            <div class="format__info">
+              <h1 class="heading format__title">Выбирайте свой формат обучения</h1>
+              <div class="format__text">
+                <p>
+                  Смотрите видео-лекции в удобное для вас время, обучайтесь на тренажере, участвуйте в интенсивных воркшопах с командой или проходите курс с гибким расписанием. На нашей платформе каждый найдет подходящий формат.
+                </p>
+              </div>
+              <a class="btn format__btn" href="#">Все курсы</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section courses">
+        <div class="container">
+          <div class="courses__inner">
+            <h1 class="heading courses__title">Популярные курсы</h1>
+            <div class="courses__list">
+              <a class="courses__item" href="#">
+                <picture>
+                  <source srcset="images/course-1.webp" type="image/webp">
+                  <img class="courses__img" src="images/course-1.png" alt="">
+                </picture>
+                <h3 class="courses__item-title">Motion design</h3>
+              </a>
+              <a class="courses__item" href="#">
+                <picture>
+                  <source srcset="images/course-2.webp" type="image/webp">
+                  <img class="courses__img" src="images/course-2.png" alt="">
+                </picture>
+                <h3 class="courses__item-title">Таргет в Instagram</h3>
+              </a>
+              <a class="courses__item" href="#">
+                <picture>
+                  <source srcset="images/course-3.webp" type="image/webp">
+                  <img class="courses__img" src="images/course-3.png" alt="">
+                </picture>
+                <h3 class="courses__item-title">Эффектные презентации</h3>
+              </a>
+              <a class="courses__item" href="#">
+                <picture>
+                  <source srcset="images/course-4.webp" type="image/webp">
+                  <img class="courses__img" src="images/course-4.png" alt="">
+                </picture>
+                <h3 class="courses__item-title">SMM-стратегия</h3>
+              </a>
+            </div>
+            <a class="btn courses__btn" href="#">Все курсы</a>
+          </div>
+        </div>
+      </section>
+      <section class="section connect">
+        <div class="container">
+          <div class="connect__inner">
+            <div class="connect__info">
+              <h1 class="heading connect__title">Присоединяйтесь к E-Mentor сейчас</h1>
+              <div class="connect__text">
+                <p>
+                  Выберите подходящий тариф и формат обучения, пройдите 2 урока и мы подарим вам дополнительные лекции по любому направлению бесплатно!
+                </p>
+              </div>
+              <a class="btn connect__btn" href="#">Выбрать тариф</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__inner">
+        <div class="container">
+          <div class="footer__columns">
+            <div class="footer__column">
+              <svg class="logo footer__logo" viewBox="0 0 170 22" width="170" height="22">
+                <use href="images/sprite.svg#logo"></use>
+              </svg>
+              <p class="footer__text">
+                Образовательная онлайн-платформа для развития и тренировки навыков в сфере информационных технологий
+              </p>
+              <div class="footer__social">
+                <a class="footer__social-item" href="#">
+                  <svg class="footer__social-svg footer__social-svg--facebook" viewBox="0 0 22 22" width="22" height="22">
+                    <use href="images/sprite.svg#facebook"></use>
+                  </svg>
+                </a>
+                <a class="footer__social-item" href="#">
+                  <svg class="footer__social-svg footer__social-svg--vk" viewBox="0 0 22 22" width="22" height="22">
+                    <use href="images/sprite.svg#vk"></use>
+                  </svg>
+                </a>
+                <a class="footer__social-item" href="#">
+                  <svg class="footer__social-svg footer__social-svg--instagram" viewBox="0 0 22 22" width="22" height="22">
+                    <use href="images/sprite.svg#instagram"></use>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="footer__column">
+              <h3 class="footer__column-title">Обучение</h3>
+              <ul class="footer__column-list">
+                <li class="footer__column-item">
+                  <a class="footer__column-link" href="#">Курсы</a>
+                </li>
+                <li class="footer__column-item">
+                  <a class="footer__column-link" href="#">Вебинары</a>
+                </li>
+                <li class="footer__column-item">
+                  <a class="footer__column-link" href="#">Тренажеры</a>
+                </li>
+                <li class="footer__column-item">
+                  <a class="footer__column-link" href="#">Воркшопы</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer__column">
+              <h3 class="footer__column-title">О нас</h3>
+              <ul class="footer__column-list">
+                <li class="footer__column-item">
+                  <a class="footer__column-link" href="#">О платформе</a>
+                </li>
+                <li class="footer__column-item">
+                  <a class="footer__column-link" href="#">Преподаватели</a>
+                </li>
+                <li class="footer__column-item">
+                  <a class="footer__column-link" href="#">Тарифы</a>
+                </li>
+                <li class="footer__column-item">
+                  <a class="footer__column-link" href="#">Отзывы</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer__column">
+              <h3 class="footer__column-title">Контакты</h3>
+              <ul class="footer__column-list">
+                <li class="footer__column-item">
+                  <a class="footer__column-link" href="#">Связаться с нами</a>
+                </li>
+                <li class="footer__column-item">
+                  <a class="footer__column-link" href="#">Консультация</a>
+                </li>
+                <li class="footer__column-item">
+                  <a class="footer__column-link" href="#">Реквизиты</a>
+                </li>
+                <li class="footer__column-item">
+                  <a class="footer__column-link" href="#">Поддержка</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer__column">
+              <h3 class="footer__column-title">Возникли вопросы?</h3>
+              <ul class="footer__column-list">
+                <li class="footer__column-item">
+                  <p>Напишите нам на почту</p>
+                  <a class="footer__column-link footer__column-link--email" href="#">education@ementor.info</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <div class="container">
+          <div class="footer__bottom-inner">
+            <p class="footer__copyright">
+              E-Mentor © 2021 Все права защищены
+            </p>
+            <div class="footer__legal-links">
+              <a class="footer__legal-links-item" href="#">Политика обработки персональных данных</a>
+              <a class="footer__legal-links-item" href="#">Публичная оферта</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+
+  <script src="js/main.min.js"></script>
+</body>
+</html>
